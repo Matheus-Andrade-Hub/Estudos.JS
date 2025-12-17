@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+<body>
+    <header>
+        <h1> Calcule o seu IMC </h1>
+    </header>
+        <section>
+                <div id = "res01">
+                    <p>Classificaçao:  ==========> <strong>IMC</strong> <br> Abaixo do peso: ========><strong>Abaixo de 18,5</strong> <br>
+                    Peso normal: ==========><Strong>18,5 - 24,9</strong> <br>
+                    Sobrepeso: ===========><strong> 25 - 29,9</strong> <br> Obesidade grau |: ======> <strong> 30 - 34,9</strong> <br>Obesidade grau ||: ======><strong>35 - 39,9</strong> <br> Obesidade grau |||: =====> <strong>Maior ou igual a 40</strong>  <br> 
+                <strong>NOME:</strong> <input type="text" name="" id="nome" style="margin-top: 30px; width: 250px; height: 25px;">
+                 <br>
+                <strong>PESO:</strong> <input type="number" name="" id="peso" style="margin-top: 30px; width: 250px; height: 25px;">
+                <br>
+                <strong>ALTURA:</strong> <input type="number" name="" id="altura" style="Margin-top: 30px; width: 250px; height: 25px;"> </p> 
+                <input type="button" value="CALCULAR IMC" onclick = "Calcular ()" style="margin-left: 0px;">
+                </div>
+                <div id = "res02">
+                    Resultado
+                </div>
+        </section>
+    <footer>
+        &copy; Matheus_Andrade
+    </footer>
+    <script src="Script.JS"></script>
+</body>
+</html>
