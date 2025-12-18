@@ -1,5 +1,5 @@
 body {
-      background-color: rgb(255, 179, 107)
+        background-color: rgb(255, 179, 107)
 }
 
 header {
@@ -11,14 +11,14 @@ header {
 }
 
 section {
-         font: normal 15pt arial;
-         background-color: white;
-         border-radius: 10px;
-         padding: 10px;
-         box-shadow: 5px 5px 10px black;
-         margin: auto;
-         width: 450px;
-         height: 490px;
+font: normal 15pt arial;
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 5px 5px 10px black;
+        margin: auto;
+        width: 480px;
+        height: 560px;
 }
 
 footer {
@@ -27,6 +27,11 @@ footer {
         margin: 30px;
 }
 
-#titulo{
+#dados{
+        text-align: center;
+        text-align: left;
+}
+
+#titulo {
         text-align: center;
 }
