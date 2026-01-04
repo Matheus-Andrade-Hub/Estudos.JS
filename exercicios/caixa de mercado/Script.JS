@@ -1,7 +1,7 @@
 let Total = 0
 
 const Adicionar = () => {
-    let nome_Item= document.querySelector ("#text00")
+    let nome_Item = document.querySelector ("#text00")
     let Quantidade = document.querySelector ("#text01")
     let Preço = document.querySelector ("#text02")
     let Resultado = document.querySelector ("#res01")
