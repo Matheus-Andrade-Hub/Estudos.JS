@@ -1,5 +1,5 @@
 class Furina {
-    constructor (Ataque, Energia, Vida,pontos_Fanfarra,) {
+    constructor (Ataque, Energia, Vida, pontos_Fanfarra,) {
         this.Ataque = Ataque
         this.Energia = Energia
         this.Vida = Vida
