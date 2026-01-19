@@ -151,6 +151,3 @@ class formaçao_Mecanica {
 }
 
 let dados_Inimigo = new formaçao_Mecanica (1200, 48000)
-
-dados_Furina.Ultimate ()
-console.log (dados_Furina.Energia)
