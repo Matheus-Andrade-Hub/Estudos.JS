@@ -26,6 +26,10 @@ class Furina {
             this.Energia = 100
         }
         console.log (`Dano: 2000 | Vida: -5000 | Energia: +35`)
+
+        if (this.Vida < 1) {
+            this.Vida = 1
+        }
     }
     Ultimate () {
         this.Energia -= 100
@@ -63,6 +67,10 @@ class Furina {
         if (this.Energia > 100) {
             this.Energia = 100
         }
+
+        if (this.Energia < 0) {
+            this.Energia = 0
+        }
     }
 }
 
@@ -93,6 +101,10 @@ class Hutao extends Furina {
         if (this.Energia > 100) {
             this.Energia = 100
         }
+
+        if (this.Vida < 1) {
+            this.Vida = 1
+        }
     }
     Ultimate () {
         this.Energia -= 100
@@ -108,6 +120,10 @@ class Hutao extends Furina {
             this.Ataque += 600
         }
         console.log (`Energia: -100 | Vida: +1700`)
+
+        if (this.Energia < 0) {
+            this.Energia = 0
+        }
     }
 
 }   
@@ -122,6 +138,19 @@ class formaçao_Mecanica {
         this.Ataque = Ataque
         this.Vida = Vida
     }
+
+    Status () {
+        if (this.Vida <= 0) {
+            console.log (`formaçao_Mecanica esta morto`)
+        } 
+
+        if (this.Vida > 0) {
+            console.log (`formaçao_Mecanica ainda esta vivo.`)
+        }
+    }
 }
 
 let dados_Inimigo = new formaçao_Mecanica (1200, 48000)
+
+dados_Furina.Ultimate ()
+console.log (dados_Furina.Energia)
